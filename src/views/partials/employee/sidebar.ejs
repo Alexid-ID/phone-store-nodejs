@@ -1,0 +1,52 @@
+<div class="sidebar active">
+    <div class="atop">
+        <div class="alogo">
+            <!-- <i class="bx bxs-offer"></i> -->
+
+            <a href="/employee/" class="px-2 d-flex align-items-center"
+               style="color: #fff; text-decoration: none; font-size: 2.4rem; font-weight: 600; gap: 0.2rem;">
+                <img src="/images/favicon1.ico" alt=""/>
+                <span>EI POS</span>
+            </a>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="m-0 p-0">
+        <li class="<%- active === 'dashboard' && 'active' %>" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="Dashboard">
+            <a href="/employee/">
+                <i class="bx bxs-dashboard"></i>
+                <span class="nav-item">Dashboard</span>
+            </a>
+        </li>
+
+        <li class="<%- active === 'checkout' && 'active' %>" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="Checkout">
+            <a href="/employee/checkout">
+                <i class="bx bxs-cart-alt"></i>
+                <span class="nav-item">Checkout</span>
+            </a>
+        </li>
+        <li class="<%- active === 'product' && 'active' %>" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="Product">
+            <a href="/employee/product">
+                <i class="bx bxs-grid-alt"></i>
+                <span class="nav-item">Product</span>
+            </a>
+        </li>
+        <li class="<%- active === 'customer' && 'active' %>" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="Customer">
+            <a href="/employee/customer">
+                <i class="bx bxs-group"></i>
+                <span class="nav-item">Customer</span>
+            </a>
+        </li>
+        <li class="<%- active === 'invoice' && 'active' %>" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="Invoice">
+            <a href="/employee/invoice">
+                <i class="bx bxs-wallet-alt"></i>
+                <span class="nav-item">Invoice</span>
+            </a>
+        </li>
+    </ul>
+</div>

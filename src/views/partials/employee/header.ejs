@@ -1,0 +1,52 @@
+<div
+        class="header row p-0 m-0 d-flex justify-content-between align-items-center"
+        style="height: 64px; border-bottom: 1px solid #000; background-color: #fff"
+>
+    <div class="col">
+        <% if(search === true) { %>
+            <form id="search">
+                <input
+                        type="text"
+                        placeholder="Search..."
+                        name="keyword"
+                        class="w-100 p-1 ps-2 form-control"
+                        style="max-width: 400px"
+                />
+            </form>
+        <% } %>
+    </div>
+    <div class="col-auto d-flex justify-content-end align-items-center gap-5">
+        <div class="employee-info-container employee-badge d-flex justify-content-end align-items-center gap-3 px-3 py-1 rounded-2">
+            <div class="employee-info d-flex flex-column justify-content-center" data-account="<%- currentUser._id %>">
+                <p class="info-name m-0 p-0 fw-bold">
+                    <%- currentUser.fullName %>
+                </p>
+                <span class="info-role m-0 p-0"><%- currentUser.role %></span>
+            </div>
+            <img
+                    src="<%- currentUser.avatar %>"
+                    alt=""
+                    class="avatar-img ml-2"
+                    height="100%;"
+                    style="max-height: 40px; height: 40px; border-radius: 100%; width: 40px; object-fit: cover;"
+            />
+            <div class="account-dropdown">
+                <div class="d-flex flex-column gap-2">
+                    <div class="dropdown-item">
+                        <span class="text-decoration-none text-dark" id="profile-button">
+                            <i class="fas fa-user me-2"></i>
+                            Profile
+                        </span>
+                    </div>
+                    <div class="dropdown-item">
+                        <a href="" class="text-decoration-none text-dark" id="logout-button"
+                           data-id="<%- currentUser._id %>">
+                            <i class="fas fa-sign-out-alt me-2"></i>
+                            Logout
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/employee/head.ejs') %>
+    <link href="/css/vendor/dataTables.bootstrap4.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/vendor/responsive.bootstrap4.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="wrapper">
+    <!-- ========== Left Sidebar Start ========== -->
+    <%- include('../../partials/employee/sidebar.ejs', { active: '' }) %>
+    <!-- Left Sidebar End -->
+
+    <!-- ============================================================== -->
+    <!-- Start Page Content here -->
+    <!-- ============================================================== -->
+
+    <div class="content-page" style="padding-top: 0">
+        <div class="content">
+            <!-- Topbar Start -->
+            <!-- end Topbar -->
+
+            <!-- Start Content-->
+            <div class="container-fluid">
+
+                <!-- start page title -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box">
+                            <div class="page-title-right">
+                                <ol class="breadcrumb m-0">
+                                    <li class="breadcrumb-item"><a href="/employee">EI POS</a></li>
+                                    <li class="breadcrumb-item"><a href="/employee/invoice">Invoices</a></li>
+                                    <li class="breadcrumb-item active">Invoice Detail</li>
+                                </ol>
+                            </div>
+                            <h4 class="page-title">Invoice Detail</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title -->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <!-- Invoice Logo-->
+                                <div class="clearfix">
+                                    <div class="float-left mb-3">
+                                        <img src="/images/logo-dark.png" alt="" height="18">
+                                    </div>
+                                    <div class="float-right">
+                                        <h4 class="m-0 d-print-none">Invoice</h4>
+                                    </div>
+                                </div>
+
+                                <!-- Invoice Detail-->
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <h6>Employee</h6>
+                                        <address>
+                                            <%= invoice.account.fullName %><br>
+                                            19 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, TP. HCM<br>
+                                            <abbr title="Phone">P:</abbr> (123) 456-7890
+                                        </address>
+                                    </div> <!-- end col-->
+
+                                    <div class="col-sm-4">
+                                        <h6>
+                                            Customer <span># <%= invoice.customer._id %></span>
+                                        </h6>
+                                        <address>
+                                            <%= invoice.customer.name %><br>
+                                            <%= invoice.customer.address %> <br>
+                                            <abbr title="Phone">P:</abbr> <%= invoice.customer.phone %>
+                                        </address>
+                                    </div> <!-- end col-->
+                                    <div class="col-sm-4 d-flex flex-column align-items-end">
+                                        <p class="font-13">
+                                            <strong>Order ID: </strong> <span class=""># <%= invoice._id %></span>
+                                        </p>
+                                        <p class="font-13">
+                                            <strong>Order
+                                                Date: </strong><%= new Date(invoice.createdAt).toLocaleString() %>
+                                        </p>
+
+                                    </div><!-- end col -->
+                                </div>
+                                <!-- end row -->
+
+
+                                <!-- end row -->
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="table-responsive">
+                                            <table class="table mt-4">
+                                                <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Item</th>
+                                                    <th>Quantity</th>
+                                                    <th>Unit Cost</th>
+                                                    <th class="text-right">Total</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <% invoice.products.forEach(function (item, index) { %>
+                                                    <tr>
+                                                        <td><%= index + 1 %></td>
+                                                        <td>
+                                                            <b><%= item.product.name %></b> <br/>
+                                                            #<%= item.product._id %>
+                                                        </td>
+                                                        <td><%= item.quantity %></td>
+                                                        <td><%= item.product.retailPrice %></td>
+                                                        <td class="text-right">
+                                                            <%= new Intl.NumberFormat('vi-VN', {
+                                                                style: 'currency',
+                                                                currency: 'VND'
+                                                            }).format(item.quantity * item.product.retailPrice) %>
+                                                        </td>
+                                                    </tr>
+                                                <% }) %>
+                                                </tbody>
+                                            </table>
+                                        </div> <!-- end table-responsive-->
+                                    </div> <!-- end col -->
+                                </div>
+                                <!-- end row -->
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="clearfix pt-3">
+                                            <h6 class="text-muted">Notes:</h6>
+                                            <small>
+                                                All accounts are to be paid within 7 days from receipt of
+                                                invoice. To be paid by cheque or credit card or direct payment
+                                                online. If account is not paid within 7 days the credits details
+                                                supplied as confirmation of work undertaken will be charged the
+                                                agreed quoted fee noted above.
+                                            </small>
+                                        </div>
+                                    </div> <!-- end col -->
+                                    <div class="col-sm-6">
+                                        <div class="float-right mt-3 mt-sm-0">
+                                            <p><b>Sub-total:</b> <span class="float-right">
+                                                    <%= new Intl.NumberFormat('vi-VN', {
+                                                        style: 'currency',
+                                                        currency: 'VND'
+                                                    }).format(invoice.total) %>
+                                                </span></p>
+                                            <p><b>Given Money:</b> <span class="float-right">
+                                                    <%= new Intl.NumberFormat('vi-VN', {
+                                                        style: 'currency',
+                                                        currency: 'VND'
+                                                    }).format(invoice.moneyGiven) %>
+                                                </span></p>
+                                            <p><b>Change:</b> <span class="float-right">
+                                                    <%= new Intl.NumberFormat('vi-VN', {
+                                                        style: 'currency',
+                                                        currency: 'VND'
+                                                    }).format(invoice.moneyBack) %>
+                                                </span></p>
+                                            <h3 class="text-end">Total:
+                                                <%= new Intl.NumberFormat('vi-VN', {
+                                                    style: 'currency',
+                                                    currency: 'VND'
+                                                }).format(invoice.total) %>
+                                            </h3>
+                                        </div>
+                                        <div class=" clearfix">
+                                        </div>
+                                    </div> <!-- end col -->
+                                </div>
+                                <!-- end row-->
+
+                                <div class="d-print-none mt-4">
+                                    <div class="text-right">
+                                        <a href="javascript:window.print()" class="btn btn-primary">
+                                            <i class="mdi mdi-printer"></i> Print</a>
+                                        <a href="/employee/checkout" class="btn btn-info">
+                                            <i class="mdi mdi-arrow-right-bold"></i>
+                                            Return
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end buttons -->
+
+                            </div> <!-- end card-body-->
+                        </div> <!-- end card -->
+                    </div> <!-- end col-->
+                </div>
+                <!-- end row -->
+
+            </div> <!-- container -->
+
+            <!-- container -->
+        </div>
+        <!-- content -->
+
+        <!-- Footer Start -->
+        <%- include('../../partials/footer.ejs') %>
+        <!-- end Footer -->
+    </div>
+
+    <!-- Warning Header Modal -->
+    <div
+            id="confirmBlockAccountModal"
+            class="modal fade"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="danger-header-modalLabel"
+            aria-hidden="true"
+    >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-colored-header bg-danger">
+                    <h4 class="modal-title" id="danger-header-modalLabel">Confirm block/unlock account</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger btn-confirm">Confirm</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+    <!-- Toast Message -->
+    <div class="toast-container"></div>
+    <!-- ============================================================== -->
+    <!-- End Page content -->
+    <!-- ============================================================== -->
+</div>
+</body>
+
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+></script>
+
+<script src="/js/main/employee/sidebar.js"></script>
+<script src="/js/main/auth/logout.js"></script>
+</html>

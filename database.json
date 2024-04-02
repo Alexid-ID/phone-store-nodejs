@@ -1,0 +1,258 @@
+{
+  "categories": [{
+      "name": "phone",
+      "products": []
+    },
+    {
+      "name": "charger",
+      "products": []
+    },
+    {
+      "name": "wired headphones",
+      "products": []
+    },
+    {
+      "name": "wireless headphones",
+      "products": []
+    }],
+  "products": [{
+      "name": "OPPO A57 128GB",
+      "importPrice": 4300000,
+      "retailPrice": 5000000,
+      "description": "Màn hình: IPS LCD6.56\"HD+\r\nHệ điều hành: Android 12\r\nCamera sau: Chính 13 MP & Phụ 2 MP\r\nCamera trước: 8 MP\r\nChip: MediaTek Helio G35\r\nRAM: 4 GB\r\nDung lượng lưu trữ: 128 GB\r\nSIM: 2 Nano SIMHỗ trợ 4G\r\nPin, Sạc: 5000 mAh33 W\r\nHãng OPPO.",
+      "image": "/uploads/products/OPPO-A57-128GB.jpg",
+      "category": "phone",
+      "quantity": 97,
+      "isDeleted": true
+    },
+    {
+      "name": "IPhone 15 Pro 128GB",
+      "importPrice": 28290000,
+      "retailPrice": 29000000,
+      "description": "Màn hình: OLED6.1\"Super Retina XDR\r\nHệ điều hành: iOS 17\r\nCamera sau:  Chính 48 MP & Phụ 12 MP, 12 MP\r\nCamera trước: 12 MP\r\nChip: Apple A17 Pro 6 nhân\r\nRAM: 8 GB\r\nDung lượng lưu trữ: 128 GB\r\nSIM: 1 Nano SIM & 1 eSIMHỗ trợ 5G\r\nPin, Sạc: 3274 mAh20 W\r\nHãng iPhone (Apple)",
+      "image": "/uploads/products/IPhone-15-Pro-128GB.jpg",
+      "category": "phone",
+      "quantity": 94,
+      "isDeleted": true
+    },
+    {
+      "name": "IPhone 15 Plus 128GB",
+      "importPrice": 25000000,
+      "retailPrice": 26000000,
+      "description": "Màn hình: OLED6.7\"Super Retina XDR\r\nHệ điều hành: iOS 17\r\nCamera sau: Chính 48 MP & Phụ 12 MP\r\nCamera trước: 12 MP\r\nChip: Apple A16 Bionic\r\nRAM: 6 GB\r\nDung lượng lưu trữ: 128 GB\r\nSIM: 1 Nano SIM & 1 eSIMHỗ trợ 5G\r\nPin, Sạc: 4383 mAh20 W\r\nHãng iPhone (Apple).",
+      "image": "/uploads/products/IPhone-15-Plus-128GB.jpg",
+      "category": "phone",
+      "quantity": 99,
+      "isDeleted": true
+    },
+    {
+      "name": "Realme C55 6GB",
+      "importPrice": 3000000,
+      "retailPrice": 4000000,
+      "description": "Màn hình: IPS LCD6.72\"Full HD+\r\n\r\nHệ điều hành: Android 13\r\n\r\nCamera sau: Chính 64 MP & Phụ 2 MP\r\n\r\nCamera trước: 8 MP\r\n\r\nChip: MediaTek Helio G88\r\n\r\nRAM: 6 GB\r\n\r\nDung lượng lưu trữ: 128 GB\r\n\r\nSIM: 2 Nano SIMHỗ trợ 4G\r\n\r\nPin, Sạc: 5000 mAh33 W\r\n\r\nHãng realme.",
+      "image": "/uploads/products/Realme-C55-6GB-.jpg",
+      "category": "phone",
+      "quantity": 98,
+      "isDeleted": true
+    },
+    {
+      "name": "OPPO Reno10 5G 256GB Xanh",
+      "importPrice": 9000000,
+      "retailPrice": 10000000,
+      "description": "Màn hình: AMOLED6.7\"Full HD+\r\nHệ điều hành: Android 13\r\nCamera sau: Chính 64 MP & Phụ 32 MP, 8 MP\r\nCamera trước: 32 MP\r\nChip: MediaTek Dimensity 7050 5G 8 nhân\r\nRAM: 8 GB\r\nDung lượng lưu trữ: 256 GB\r\nSIM: 2 Nano SIM (SIM 2 chung khe thẻ nhớ)Hỗ trợ 5G\r\nPin, Sạc: 5000 mAh67 W\r\nHãng OPPO.",
+      "image": "/uploads/products/OPPO-Reno10-5G-256GB-Xanh.jpg",
+      "category": "phone",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "IPhone 14 Pro Max 128GB",
+      "importPrice": 2700000,
+      "retailPrice": 28000000,
+      "description": "Màn hình: OLED6.7\"Super Retina XDR\r\nHệ điều hành: iOS 16\r\nCamera sau: Chính 48 MP & Phụ 12 MP, 12 MP\r\nCamera trước: 12 MP\r\nChip: Apple A16 Bionic\r\nRAM: 6 GB\r\nDung lượng lưu trữ: 128 GB\r\nSIM: 1 Nano SIM & 1 eSIMHỗ trợ 5G\r\nPin, Sạc: 4323 mAh20 W\r\nHãng iPhone (Apple).",
+      "image": "/uploads/products/IPhone-14-Pro-Max-128GB.jpg",
+      "category": "phone",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Pin sạc dự phòng Polymer 10.000 mAh 12W AVA+ PJ JP192",
+      "importPrice": 220000,
+      "retailPrice": 250000,
+      "description": "Hiệu suất sạc: 64%\r\nDung lượng pin: 10000 mAh\r\nThời gian sạc đầy pin: 5 - 6 giờ (dùng Adapter 2A)10 - 11 giờ (dùng Adapter 1A)\r\nNguồn vào: Micro USB: 5V - 2A\r\nNguồn ra: USB: 5V - 2.4A\r\nLõi pin: Polymer\r\nCông nghệ/Tiện ích: Đèn LED báo hiệu\r\nKích thước: Dài 8.7 cm - Ngang 6 cm - Cao 2 cm\r\nKhối lượng: 182 g\r\nThương hiệu của: Thế Giới Di Động\r\nSản xuất tại: Trung Quốc\r\nHãng AVA+.",
+      "image": "/uploads/products/Pin-sạc-dự-phòng-Polymer-10.000-mAh-12W-AVA+-PJ-JP192.jpg",
+      "category": "charger",
+      "quantity": 94,
+      "isDeleted": true
+    },
+    {
+      "name": "Pin sạc dự phòng Polymer 10000mAh Type C 10W AVA+ PB100S",
+      "importPrice": 190000,
+      "retailPrice": 200000,
+      "description": "Hiệu suất sạc: 65%\r\nDung lượng pin: 10.000 mAh\r\nThời gian sạc đầy pin:\r\n5 - 6 giờ (dùng Adapter 2A)\r\n10 - 11 giờ (dùng Adapter 1A)\r\nNguồn vào: Micro USB/Type-C: 5V - 2A\r\nNguồn ra:\r\nType-C: 5V - 2A\r\nUSB: 5V - 2A\r\nLõi pin: Polymer\r\nCông nghệ/Tiện ích: Đèn LED báo hiệu\r\nKích thước: Dày 1,5 cm - Rộng 6,9 cm - Dài 14,6 cm\r\nKhối lượng: 230 g\r\nThương hiệu của: Thế Giới Di Động\r\nSản xuất tại: Trung Quốc\r\nHãng: AVA+",
+      "image": "/uploads/products/Pin-sạc-dự-phòng-Polymer-10000mAh-Type-C-10W-AVA+-PB100S.jpg",
+      "category": "charger",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Pin sạc dự phòng Polymer 10000mAh Type C 15W AVA+ JP399",
+      "importPrice": 340000,
+      "retailPrice": 350000,
+      "description": "Hiệu suất sạc: 64%\r\nDung lượng pin: 10.000 mAh\r\nThời gian sạc đầy pin: 5 - 6 giờ (dùng Adapter 2A)\r\nNguồn vào:\r\nType C: 5V - 3A\r\nMicro USB: 5V - 2A\r\nNguồn ra:\r\nType-C: 5V - 3A\r\nUSB: 5V - 2.4A\r\nLõi pin: Polymer\r\nCông nghệ/Tiện ích: Đèn LED báo hiệu\r\nKích thước: Dài 9.2 cm - 6.3 cm - Dày 1.9 cm\r\nKhối lượng: 190 g\r\nThương hiệu của: Thế Giới Di Động\r\nSản xuất tại: Trung Quốc",
+      "image": "/uploads/products/Pin-sạc-dự-phòng-Polymer-10000mAh-Type-C-15W-AVA+-JP399.jpg",
+      "category": "charger",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Tai nghe Có Dây Apple MMTN2",
+      "importPrice": 550000,
+      "retailPrice": 600000,
+      "description": "Jack cắm: Lightning\r\nTương thích: iOS (iPhone)\r\nTiện ích: Có mic thoại\r\nĐiều khiển bằng: Phím nhấn\r\nPhím điều khiển:\r\nMic thoại\r\nNghe/nhận cuộc gọi\r\nPhát/dừng chơi nhạc\r\nChuyển bài hát\r\nTăng/giảm âm lượng\r\nHãng: Apple",
+      "image": "/uploads/products/Tai-nghe-Có-Dây-Apple-MMTN2.jpg",
+      "category": "wired headphones",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Tai nghe Có Dây JBL C200 SIU",
+      "importPrice": 290000,
+      "retailPrice": 300000,
+      "description": "Jack cắm: 3.5 mm\r\nTương thích: Android, iOS (iPhone)\r\nTiện ích: Có mic thoại, Đệm tai đi kèm\r\nĐiều khiển bằng: Phím nhấn\r\nPhím điều khiển: Phát/dừng chơi nhạc, Chuyển bài hát\r\nHãng: JBL",
+      "image": "/uploads/products/Tai-nghe-Có-Dây-JBL-C200-SIU.jpg",
+      "category": "wired headphones",
+      "quantity": 98,
+      "isDeleted": true
+    },
+    {
+      "name": "OPPO A18 64GB",
+      "importPrice": 3100000,
+      "retailPrice": 3500000,
+      "description": "Màn hình: IPS LCD6.56\"HD+\r\n\r\nHệ điều hành: Android 13\r\n\r\nCamera sau: Chính 8 MP & Phụ 2 MP\r\n\r\nCamera trước: 5 MP\r\n\r\nChip: MediaTek Helio G85\r\n\r\nRAM: 4 GB\r\n\r\nDung lượng lưu trữ: 64 GB\r\n\r\nSIM: 2 Nano SIMHỗ trợ 4G\r\n\r\nPin, Sạc: 5000 mAh10 W\r\n\r\nHãng OPPO.",
+      "image": "/uploads/products/OPPO-A18-64GB-.jpg",
+      "category": "phone",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Samsung Galaxy S23 Ultra 5G 256GB",
+      "importPrice": 24000000,
+      "retailPrice": 25000000,
+      "description": "Thông tin sản phẩm\r\nSamsung Galaxy S23 Ultra 5G 256GB là chiếc smartphone cao cấp nhất của nhà Samsung, sở hữu cấu hình không tưởng với con chip khủng được Qualcomm tối ưu riêng cho dòng Galaxy và camera lên đến 200 MP, xứng danh là chiếc flagship Android được mong đợi nhất trong năm 2023.\r\nTạo hình sang trọng đầy tinh tế\r\nVề thiết kế thì Samsung Galaxy S23 Ultra sẽ tiếp tục thừa hưởng kiểu dáng sang trọng đến từ thế hệ trước, vẫn là bộ khung kim loại, mặt lưng kính cùng kiểu tạo hình bo cong nhẹ ở cạnh bên và màn hình.",
+      "image": "/uploads/products/Samsung-Galaxy-S23-Ultra-5G-256GB-.jpg",
+      "category": "phone",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "OPPO Find N2 Flip 5G",
+      "importPrice": 17000000,
+      "retailPrice": 18000000,
+      "description": "Màn hình:\r\n\r\nAMOLEDChính 6.8\" & Phụ 3.26\"Full HD+\r\nHệ điều hành:\r\n\r\nAndroid 13\r\nCamera sau:\r\n\r\nChính 50 MP & Phụ 8 MP\r\nCamera trước:\r\n\r\n32 MP\r\nChip:\r\n\r\nMediaTek Dimensity 9000+ 8 nhân\r\nRAM:\r\n\r\n8 GB\r\nDung lượng lưu trữ:\r\n\r\n256 GB\r\nSIM:\r\n\r\n2 Nano SIMHỗ trợ 5G\r\nPin, Sạc:\r\n\r\n4300 mAh44 W\r\nHãng\r\n\r\nOPPO",
+      "image": "/uploads/products/OPPO-Find-N2-Flip-5G.jpg",
+      "category": "phone",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Xiaomi Redmi 12 4GB",
+      "importPrice": 3490000,
+      "retailPrice": 3500000,
+      "description": "Màn hình:\r\n\r\nIPS LCD6.79\"Full HD+\r\nHệ điều hành:\r\n\r\nAndroid 13\r\nCamera sau:\r\n\r\nChính 50 MP & Phụ 8 MP, 2 MP\r\nCamera trước:\r\n\r\n8 MP\r\nChip:\r\n\r\nMediaTek Helio G88\r\nRAM:\r\n\r\n4 GB\r\nDung lượng lưu trữ:\r\n\r\n128 GB\r\nSIM:\r\n\r\n2 Nano SIM (SIM 2 chung khe thẻ nhớ)Hỗ trợ 4G\r\nPin, Sạc:\r\n\r\n5000 mAh18 W\r\nHãng\r\n\r\nXiaomi.",
+      "image": "/uploads/products/Xiaomi-Redmi-12-4GB.jpg",
+      "category": "phone",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Tai nghe Bluetooth True Wireless Monster MH22163 N-Lite 203 AirLinks",
+      "importPrice": 900000,
+      "retailPrice": 1000000,
+      "description": "Một chiếc tai nghe Bluetooth đến từ thương hiệu nổi tiếng Monster với chất âm sống động, thiết kế nhỏ gọn, điều khiển cảm ứng thông minh cùng khả năng tương thích nhiều hệ điều hành, đảm bảo tai nghe Bluetooth TWS Monster MH22163 N-Lite 203 BK AirLinks sẽ mang đến cho bạn nhiều trải nghiệm tuyệt vời.\r\n• Sở hữu thiết kế thời thượng, lớp vỏ cứng cáp cùng khối lượng nhẹ, dễ dàng bỏ tai nghe vào túi xách, balo mang theo ra ngoài.\r\n\r\n• Công nghệ Pure Monster Sound mang đến âm thanh sống động, rõ ràng và mạnh mẽ.\r\n\r\n• Tai nghe Bluetooth tương thích với nhiều hệ điều hành khác nhau như macOS, Android, iOS, Windows, cho bạn thoải mái kết nối với điện thoại, laptop hay máy tính bảng của mình.\r\n\r\n• Hỗ trợ chuẩn Bluetooth 5.3 cho kết nối ổn định, không bị giật lag hay mất tín hiệu.\r\n\r\n• Đàm thoại rảnh tay với micro tích hợp, dễ dàng trò chuyện với bạn bè, đồng nghiệp hay gia đình.\r\n\r\n• Thời gian sử dụng tai nghe lên đến 8 giờ liên tục, cho bạn thỏa sức thưởng thức âm nhạc, xem phim hay chơi game.\r\n\r\n• Chống nước IPX6, yên tâm sử dụng tai nghe Monster trong môi trường ẩm ướt hay khi tập thể thao.\r\n\r\n• Điều khiển cảm ứng trên tai nghe, dễ dàng điều chỉnh âm lượng, chuyển bài hát hay kích hoạt trợ lý ảo.\r\n\r\n• Thiết kế công thái học thông minh, ôm sát vừa vặn, hạn chế đau nhức tai khi đeo lâu.",
+      "image": "/uploads/products/Tai-nghe-Bluetooth-True-Wireless-Monster-MH22163-N-Lite-203-AirLinks-.jpg",
+      "category": "wireless headphones",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Tai nghe Bluetooth AirPods Pro Gen 2 MagSafe Charge (USB-C) Apple MTJV3",
+      "importPrice": 5990000,
+      "retailPrice": 6000000,
+      "description": "Tai nghe Bluetooth AirPods Pro (2nd Gen) USB-C Charge Apple sở hữu thiết kế mang đậm chất thương hiệu Apple, màu sắc sang trọng, đi cùng nhiều công nghệ cho các iFan: chip Apple H2, chống bụi, chống ồn chủ động,... hứa hẹn mang đến trải nghiệm âm thanh sống động, chinh phục người dùng.\r\nGiữ nguyên thiết kế cùng vật liệu tái chế thân thiện môi trường\r\nTai nghe Bluetooth AirPods Pro (2nd Gen) được Apple trình làng vào tháng 09/2023 với nhiều sự mong đợi, Apple vẫn giữ nguyên thiết kế AirPods Pro Gen 2 giống với phiên bản tiền nhiệm của mình như: kích thước nhỏ gọn, đường bo góc tinh tế, gam màu trắng sang trọng.\r\n\r\nTuy nhiên trong lần ra mắt này, Apple đã thay mới cổng sạc cho các thiết bị của mình, tương tự như cổng sạc trên các mẫu iPhone 15 series, AirPods Pro Gen 2 được tích hợp cổng sạc Type-C nhằm tối ưu phụ kiện sạc giữa các thiết bị. Khi hết pin bạn có thể sạc lại hộp sạc bằng bộ sạc Apple Watch hay MagSafe. Ngoài ra bạn còn có thể sử dụng đầu nối Type-C hoặc bộ sạc chuẩn Qi để nạp lại pin cho chiếc AirPods của mình.",
+      "image": "/uploads/products/Tai-nghe-Bluetooth-AirPods-Pro-Gen-2-MagSafe-Charge-(USB-C)-Apple-MTJV3-.jpg",
+      "category": "wireless headphones",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Tai nghe Bluetooth True Wireless AVA+ Buds Life Air 2",
+      "importPrice": 390000,
+      "retailPrice": 400000,
+      "description": "Tai nghe Bluetooth True Wireless AVA+ Buds Life Air 2 được thiết kế với phong cách trẻ trung, màu sắc tối giản, âm thanh mạnh mẽ, trang bị kết nối không dây gọn gàng và nhanh chóng, mang đến cho bạn những trải nghiệm tối ưu.\r\n• Diện mạo tai nghe sang trọng, chất liệu nhựa cao cấp tạo cảm giác cứng cáp, bảo vệ tai nghe tốt, yên tâm mỗi khi sử dụng.\r\n\r\n• Kích thước tai nghe vừa vặn với đa số khuôn tai của người dùng, không gây ra cảm giác nhức tai trong quá trình sử dụng kể cả khi đeo trong thời gian dài.\r\n\r\n• Kết nối với 2 thiết bị âm nhạc một cách nhanh chóng và mượt mà thông qua Bluetooth 5.3.\r\n\r\n• Tai nghe AVA+ tương thích với các hệ điều hành phổ biến hiện nay như: iOS, macOS, Android, Windows.\r\n\r\n• Thời gian nghe nhạc liên tục lên đến 4 giờ mà chỉ cần sạc 1.2 giờ giúp cho trải nghiệm nghe nhạc hay chơi game không bị gián đoạn.\r\n\r\n• Chất âm sống động và mạnh mẽ mang đến cho bạn những trải nghiệm nghe nhạc tối ưu.\r\n\r\n• Khả năng kháng nước và mồ hôi tốt nhờ tích hợp chuẩn chống nước IPX3.",
+      "image": "/uploads/products/Tai-nghe-Bluetooth-True-Wireless-AVA+-Buds-Life-Air-2.jpg",
+      "category": "wireless headphones",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 Pro R510N",
+      "importPrice": 3490000,
+      "retailPrice": 3500000,
+      "description": "Tháng 08/2022, nhà Samsung cho ra mắt sản phẩm mới là tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 Pro R510N. Đây là phiên bản kế nhiệm của chiếc tai nghe Samsung Galaxy Buds Pro (ra mắt vào tháng 01/2021). Sản phẩm mới này hứa hẹn sẽ bổ sung nhiều tính năng hấp dẫn cho người dùng.\r\nThiết kế gọn nhẹ, màu sắc sang chảnh\r\nĐiều mình chú ý đầu tiên chính là tổng quan thiết kế của bộ tai nghe này, toàn bộ hộp sạc và tai nghe đều được bao phủ bởi màu trắng trang nhã, thanh lịch. Phần logo Samsung in ở mặt trên hộp sạc càng làm thiết kế trở nên tinh tế hơn. Với mình, đây không chỉ là một chiếc tai nghe mà nó còn là một món phụ kiện thời trang sang chảnh.",
+      "image": "/uploads/products/Tai-nghe-Bluetooth-True-Wireless-Samsung-Galaxy-Buds-2-Pro-R510N.jpg",
+      "category": "wireless headphones",
+      "quantity": 100,
+      "isDeleted": true
+    },
+    {
+      "name": "Tai nghe Bluetooth TWS Xiaomi Redmi Buds 4 Lite",
+      "importPrice": 540000,
+      "retailPrice": 550000,
+      "description": "Thời gian tai nghe:\r\n\r\nDùng 5 giờ - Sạc 2 giờ\r\nThời gian hộp sạc:\r\n\r\nDùng 20 giờ - Sạc 2 giờ\r\nCổng sạc:\r\n\r\nType-C\r\nTương thích:\r\n\r\nAndroid, iOS, WindowsMacOS\r\nTiện ích:\r\n\r\nKhử tiếng ồn AIGame ModeKết nối 1 chạm Fast PairChống nước & bụi IP54\r\nHỗ trợ kết nối:\r\n\r\nBluetooth 5.3\r\nĐiều khiển bằng:\r\n\r\nCảm ứng chạm\r\nHãng\r\n\r\nXiaomi.",
+      "image": "/uploads/products/Tai-nghe-Bluetooth-TWS-Xiaomi-Redmi-Buds-4-Lite.jpg",
+      "category": "wireless headphones",
+      "quantity": 100,
+      "isDeleted": true
+    }],
+    "accounts": [{
+        "username": "minhthuw.xid",
+        "fullName": "Minh Thư",
+        "email": "minhthuw.xid@gmail.com",
+        "password": "$2b$10$YREbKSNmq62AMJiyePMmaeY5FY4qSv7f9ocmGB.RE8r/xmsnyXQFu",
+        "avatar": "/images/user.png",
+        "role": "EMPLOYEE",
+        "isActive": true,
+        "isLocked": true,
+        "sales": [],
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTY1ODdmYzcwMTVmNDIzNWNmZDE1NmEiLCJlbWFpbCI6Im1pbmh0aHV3LnhpZEBnbWFpbC5jb20iLCJyb2xlIjoiRU1QTE9ZRUUiLCJ1c2VybmFtZSI6Im1pbmh0aHV3LnhpZCIsImlhdCI6MTcwMTE1Mjc2NCwiZXhwIjoxNzAxMTUyODI0fQ.ncED9ukF4IQEgYA58HVXeIekP9yZhWqW3X-eWhuNrEg",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTY1ODdmYzcwMTVmNDIzNWNmZDE1NmEiLCJlbWFpbCI6Im1pbmh0aHV3LnhpZEBnbWFpbC5jb20iLCJyb2xlIjoiRU1QTE9ZRUUiLCJ1c2VybmFtZSI6Im1pbmh0aHV3LnhpZCIsImlhdCI6MTcwMTE1Mjc2OCwiZXhwIjoxNzAxMjM5MTY4fQ.25sACzv0q6VjYcLcpe4-YfwDubly6lQxpKhahaFp5qg"
+      },
+      {
+        "username": "29thnov03",
+        "fullName": "29thnov03",
+        "email": "29thnov03@gmail.com",
+        "password": "$2b$10$qcymaA/YeNXX1cSiNGJnLut0RLj6pS6rzDxU25EOheSjlVyOpNQQ6",
+        "avatar": "/images/user.png",
+        "role": "EMPLOYEE",
+        "isActive": false,
+        "isLocked": true,
+        "sales": [],
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTcxOGNmMjYzYjI1ZDgzYzE3ZTczNWIiLCJlbWFpbCI6IjI5dGhub3YwM0BnbWFpbC5jb20iLCJyb2xlIjoiRU1QTE9ZRUUiLCJ1c2VybmFtZSI6IjI5dGhub3YwMyIsImlhdCI6MTcwMTk0MDQ2NiwiZXhwIjoxNzAxOTQwNTI2fQ.iZoHxyDuQfPmAZeoS_tzzZHmJRerwj2mdnVxfX2OlA0",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTcxOGNmMjYzYjI1ZDgzYzE3ZTczNWIiLCJlbWFpbCI6IjI5dGhub3YwM0BnbWFpbC5jb20iLCJyb2xlIjoiRU1QTE9ZRUUiLCJ1c2VybmFtZSI6IjI5dGhub3YwMyIsImlhdCI6MTcwMTk0MDQ2OSwiZXhwIjoxNzAyMDI2ODY5fQ.HOPkNrTFqtLolPCWbAr95wOAhoj2jlZLbxxFHetvE8k"
+      },
+      {
+        "username": "admin",
+        "fullName": "admin",
+        "email": "admin@gmail.com",
+        "password": "$2b$10$GHAon646OtVVTsiHKAfL3.SQtt0GcaXmcrXdLtNm5GNHY1ZTZt5Ju",
+        "avatar": "/images/user.png",
+        "role": "ADMIN",
+        "isActive": true,
+        "isLocked": true,
+        "sales": [],
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTc0NDNkODM3OTRhY2RlMTc1NWU2MWQiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE3MDIxMTgzNjAsImV4cCI6MTcwMjExODQyMH0.jVSe3Nz75z6yT936Nj6C_YU8a_O_NPRhWxHvkryeb04",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTc0NDNkODM3OTRhY2RlMTc1NWU2MWQiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE3MDIxMTgzNjUsImV4cCI6MTcwMjIwNDc2NX0.LCIDEjPJm7SKQoovNoDAv59kh8wQg1Z9yaBLmnXD6rs"
+      }
+    ]
+}
