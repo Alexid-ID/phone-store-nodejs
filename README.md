@@ -4,7 +4,6 @@
 
 - Đặng Thị Minh Thư - 52100843
 - La Quốc Bảo -52100872
-- Vũ Minh Phúc - 52100921
 
 ## How to run
 
@@ -33,7 +32,3 @@ MongoDB Connect String
 
 - Username: minhthuw
 - Password: 123456
-
-### Video demo
-
-https://drive.google.com/drive/folders/15AUgG_WLPFE7mZyHYGeioZ-RS4CGl7oF?usp=sharing
