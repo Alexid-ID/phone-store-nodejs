@@ -4,7 +4,8 @@
 
 - Đặng Thị Minh Thư - 52100843
 - La Quốc Bảo -52100872
-
+- Vũ Minh Phúc - 52100921
+  
 ## How to run
 
 The first method:
