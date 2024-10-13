@@ -2,9 +2,9 @@
 
 ## Members
 
-- Đặng Thị Minh Thư - 52100843
-- La Quốc Bảo -52100872
-- Vũ Minh Phúc - 52100921
+- Đặng Thị Minh Thư
+- La Quốc Bảo
+- Vũ Minh Phúc
   
 ## How to run
 
@@ -15,12 +15,7 @@ The first method:
 - Run `yarn start` to start the server.
 - Let open [http://localhost:3000](http://localhost:3000) to see the result.
 
-The second method: You can access to [EI POS Phone Store](https://ei-pos.alfiee.tech) to visit and experience.
-
-## Database Connection String
-
-MongoDB Connect String
-`mongodb+srv://29thnov03:123no321@db1.cv7lytx.mongodb.net/ck_nodejs`
+The second method: You can access to [EI POS Phone Store - domain deleted ](https://ei-pos.alfiee.tech) to visit and experience.
 
 ## Default account
 
